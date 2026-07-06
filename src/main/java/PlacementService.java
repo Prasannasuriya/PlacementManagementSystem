@@ -9,6 +9,10 @@ public class PlacementService {
 
     // Add Student
     public void addStudent() {
+        if (con == null) {
+            System.out.println("Database connection failed!");
+            return;
+        }
 
         try {
 
