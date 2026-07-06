@@ -13,8 +13,7 @@ public class DBConnection {
             con = DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/placement_db",
                     "root",
-                    "password"
-            );
+                    "poco");
 
         } catch (Exception e) {
             System.out.println(e);
